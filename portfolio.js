@@ -104,7 +104,7 @@ const modalViews= document.querySelectorAll('.services_modal'),
 
     //------PORTFOLIO
 
-    let swiper=new Swiper(".portfolio_container",{
+    let swiper=new swiper(".portfolio_container",{
         cssMode:true,
         loop:true,
         navigation:{
@@ -117,5 +117,5 @@ const modalViews= document.querySelectorAll('.services_modal'),
         },
     });
 
-    
+
 
